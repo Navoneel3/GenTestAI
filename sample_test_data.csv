@@ -1,0 +1,252 @@
+natural_prompt,bdd,code
+User logs in with valid credentials - variation 1,"Given the user (variation 1) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user001')
+driver.find_element(By.ID, 'password').send_keys('pass001')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 2,"Given the user (variation 2) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 3,"Given the user (variation 3) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 4,"Given the user (variation 4) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user004')
+driver.find_element(By.ID, 'password').send_keys('pass004')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 5,"Given the user (variation 5) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 6,"Given the user (variation 6) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 7,"Given the user (variation 7) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user007')
+driver.find_element(By.ID, 'password').send_keys('pass007')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 8,"Given the user (variation 8) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 9,"Given the user (variation 9) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 10,"Given the user (variation 10) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user010')
+driver.find_element(By.ID, 'password').send_keys('pass010')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 11,"Given the user (variation 11) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 12,"Given the user (variation 12) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 13,"Given the user (variation 13) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user013')
+driver.find_element(By.ID, 'password').send_keys('pass013')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 14,"Given the user (variation 14) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 15,"Given the user (variation 15) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 16,"Given the user (variation 16) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user016')
+driver.find_element(By.ID, 'password').send_keys('pass016')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 17,"Given the user (variation 17) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 18,"Given the user (variation 18) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 19,"Given the user (variation 19) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user019')
+driver.find_element(By.ID, 'password').send_keys('pass019')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 20,"Given the user (variation 20) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 21,"Given the user (variation 21) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 22,"Given the user (variation 22) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user022')
+driver.find_element(By.ID, 'password').send_keys('pass022')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 23,"Given the user (variation 23) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 24,"Given the user (variation 24) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 25,"Given the user (variation 25) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user025')
+driver.find_element(By.ID, 'password').send_keys('pass025')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 26,"Given the user (variation 26) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 27,"Given the user (variation 27) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 28,"Given the user (variation 28) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user028')
+driver.find_element(By.ID, 'password').send_keys('pass028')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 29,"Given the user (variation 29) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 30,"Given the user (variation 30) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 31,"Given the user (variation 31) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user031')
+driver.find_element(By.ID, 'password').send_keys('pass031')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 32,"Given the user (variation 32) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 33,"Given the user (variation 33) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 34,"Given the user (variation 34) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user034')
+driver.find_element(By.ID, 'password').send_keys('pass034')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 35,"Given the user (variation 35) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 36,"Given the user (variation 36) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 37,"Given the user (variation 37) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user037')
+driver.find_element(By.ID, 'password').send_keys('pass037')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 38,"Given the user (variation 38) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 39,"Given the user (variation 39) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 40,"Given the user (variation 40) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user040')
+driver.find_element(By.ID, 'password').send_keys('pass040')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 41,"Given the user (variation 41) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 42,"Given the user (variation 42) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 43,"Given the user (variation 43) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user043')
+driver.find_element(By.ID, 'password').send_keys('pass043')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 44,"Given the user (variation 44) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 45,"Given the user (variation 45) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 46,"Given the user (variation 46) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user046')
+driver.find_element(By.ID, 'password').send_keys('pass046')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 47,"Given the user (variation 47) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
+User logs out from the application - variation 48,"Given the user (variation 48) is logged in
+When they click on the logout button
+Then they should be redirected to the login screen","driver.find_element(By.ID, 'logoutButton').click()
+assert 'login' in driver.current_url"
+User logs in with valid credentials - variation 49,"Given the user (variation 49) is on the login screen
+When they enter valid credentials and click login
+Then they should be redirected to the dashboard","driver.find_element(By.ID, 'username').send_keys('user049')
+driver.find_element(By.ID, 'password').send_keys('pass049')
+driver.find_element(By.ID, 'loginButton').click()
+assert 'dashboard' in driver.current_url"
+User searches for 'laptop' in the product catalog - variation 50,"Given the user (variation 50) is on the catalog page
+When they enter ""laptop"" in the search bar and click search
+Then relevant search results should be displayed","driver.find_element(By.ID, 'searchField').send_keys('laptop')
+driver.find_element(By.ID, 'searchButton').click()
+assert 'laptop' in driver.page_source"
